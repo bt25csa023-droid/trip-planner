@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip Planner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6f8fb; color: #222; margin: 0; }
+    header { background: #31a2fd; color: #fff; padding: 30px 20px; text-align: center; }
+    section { padding: 24px 20px; max-width: 700px; margin: auto; background: #fff; border-radius: 10px; box-shadow: 0 0 10px #ddd; margin-top: 30px;}
+    h2 { color: #2283bb; }
+    ul { margin-top: 10px; }
+    /* Make sure chatbot doesn't block page info */
+    df-messenger { position: fixed !important; right: 24px; bottom: 24px; z-index: 1000; }
+  </style>
+  <!-- Dialogflow Messenger script -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+<body>
+  <header>
+    <h1>Trip Planner</h1>
+    <p>Plan your journey with intelligence and ease!</p>
+  </header>
+  <section>
+    <h2>How AI Helps You Travel</h2>
+    <ul>
+      <li>Finds best flights, hotels, restaurants</li>
+      <li>Personalizes itinerary based on your interests</li>
+      <li>Saves costs by finding deals and predicting prices</li>
+      <li>Adjusts plans in real-time with fresh updates</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Why Use Chatbots?</h2>
+    <ul>
+      <li>Instant answers: Hotels, food, events</li>
+      <li>Easy booking: Flights, hotels, reservations</li>
+      <li>24/7 trip assistance and reminders</li>
+      <li>Secure, fast, and stress-free travel planning</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Ready to Plan?</h2>
+    <p>Start your trip with AI-powered chat, concierge, and personalized ideas!</p>
+  </section>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;miro.medium.com&#x2F;v2&#x2F;1*CwhtgBtYuUvcs8P9oaoaPw.jpeg"
+  intent="WELCOME"
+  chat-title="Trip_Planner7"
+  agent-id="bc72741d-1a48-4bf9-9ba2-6ed0e30911d2"
+  language-code="en"
+></df-messenger>
+
+</body>
+</html>
